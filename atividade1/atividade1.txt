@@ -1,0 +1,52 @@
+1 -Pergunta: Qual é a finalidade da declaração em um documento HTML? Qual é sua importância?
+---Resposta: Para definir o a versão do html. É a estrutura da página web.
+
+2 -Pergunta: O que são elementos HTML? Explique brevemente o conceito.
+---Resposta: Blocos de construção necessários para uma pagina web, são conceitos q formão uma hierarquia dentro do html.
+
+3 -Pergunta: Em HTML, como os elementos são estruturados geralmente? Descreva a estrutura básica de um documento HTML, incluindo as tags de abertura e fechamento.
+---Resposta: são estruturados em uma hierarquia organizada que define a estrutura e o conteúdo de uma página da web.
+
+<!DOCTYPE html>
+          <html>
+            <head>
+            <title></title>
+            <meta name=" " content" " />
+            </head>
+            <body>
+            <h1></h1>
+            <p></p>
+            <img src=" " alt=" " />
+            <a href=" "></a>
+            </body>
+          </html
+
+4 -Pergunta: O que são atributos em HTML e onde eles são normalmente encontrados em um elemento HTML? Dê um exemplo de um elemento HTML com atributos.
+---Resposta: Atributos são informações adicionais fornecidas dentro das tags dos elementos.
+<a href="" title="">Clique aqui</a>
+
+5 -Pergunta: O que são elementos vazios em HTML? Forneça alguns exemplos de elementos vazios e explique por que eles são considerados vazios.
+---Resposta: São elementos HTML que não podem ter conteúdo, ocorrem apenas com tag de abertura.
+<img src="" alt="" />
+<input type="" name="" placeholder="" />
+
+6 -Pergunta: Explique a diferença entre elementos de bloco e elementos inline em HTML. Dê exemplos de cada um.
+---Resposta: Elementos de bloco geralmente começam em uma nova linha e ocupam a largura total disponível em seu contêiner. Exemplo: <p> <div>
+---Elementos inline não começam em uma nova linha. Eles ocupam apenas o espaço necessário para o conteúdo que contêm Exemplo: <span> <a>
+
+7 -Pergunta: Qual é a diferença entre as tags <div> e <span> em HTML? Quando você usaria uma em vez da outra?
+---Resposta: <div> é um elemento de bloco, o que significa que ele começa em uma nova linha e ocupa a largura total do contêiner. Usaria div no lugar de span quando for preciso estilizar conteudos em Blocos.
+---<span> é um elemento inline, o que significa que ele não começa em uma nova linha e ocupa apenas o espaço necessário para o conteúdo. Usaria span no lugar de div quando for preciso estilizar conteudos inline.
+
+8 -Pergunta: Qual atributo HTML permite abrir um link em uma nova janela ou guia do navegador? Dê um exemplo de como usar esse atributo.
+---Resposta: O atributo HTML que permite abrir um link em uma nova janela ou guia do navegador é o atributo target. Exemplo: <a href="https://codefico.com.br" target="_blank">Codefico< /a>
+
+9 -Pergunta: Além do exemplo mencionado na aula, pesquise e liste pelo menos três meta informações que podem ser adicionadas a uma página HTML. Explique brevemente o propósito de cada uma delas.
+---Resposta: Meta Robots: <meta name="robots" content="noindex, nofollow" /> Propósito: Controla o comportamento dos mecanismos de busca em relação à página. O exemplo acima instrui os mecanismos de busca a não indexarem a página (noindex) e a não seguirem os links na página (nofollow).
+---Meta Viewport: <meta name="viewport" content="width=device-width, initial-scale=1.0" />. Propósito: Define a configuração da viewport, o que afeta a forma como a página é exibida em dispositivos móveis. O exemplo acima define a largura da viewport como a largura do dispositivo e define a escala inicial para 1, permitindo um layout responsivo em dispositivos móveis.
+---Meta Refresh: <meta http-equiv="refresh" content="5;url=https://www.exemplo.com" />. Propósito: Redireciona automaticamente os visitantes para outra página após um determinado período de tempo (5 segundos no exemplo acima). É usado para redirecionamentos automáticos ou para atualizar a página.
+
+10 -Pergunta: Além das tags <b> e <i>, que outras tags de formatação HTML você conhece? Liste pelo menos duas tags adicionais e explique como elas são usadas.
+---Resposta: <strong> e <em>:
+---<strong>: Usado para destacar o texto como semanticamente importante, geralmente exibindo o texto em negrito. Enfatiza o significado.
+---<em>: Usado para enfatizar o texto, geralmente exibindo o texto em itálico. Destaca a ênfase.
